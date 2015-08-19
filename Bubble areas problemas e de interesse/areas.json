@@ -1,0 +1,54 @@
+{
+	"name": "Problemas",
+	"children":[
+		{"name": "Design",
+		"children":[
+			{"name": "Design como interesse", "size":50, "color":"#393b79"},
+			{"name": "Design como Problema", "size":20, "color":"#d62728"}
+		]
+		},
+		{"name": "Audiovisual",
+		"children":[
+			{"name": "Audivisual como interesse", "size":38, "color":"#393b79"},
+			{"name": "Audiovisual como Problema", "size":34, "color":"#d62728"}
+		]
+		},
+		{"name": "Animação",
+		"children":[
+			{"name": "Animação como interesse", "size":26, "color":"#393b79"},
+			{"name": "Animação como Problema", "size":19, "color":"#d62728"}
+		]
+		},
+		{"name": "Modelagem 3D",
+		"children":[
+			{"name": "Modelagem 3D como interesse", "size":22, "color":"#393b79"},
+			{"name": "Modelagem 3D como Problema", "size":25, "color":"#d62728"}
+		]
+		},
+		{"name": "Desenvolvimento de Sistemas",
+		"children":[
+			{"name": "Desenvolvimento de Sistemas como interesse", "size":27, "color":"#393b79"},
+			{"name": "Desenvolvimento de Sistemas como Problema", "size":22, "color":"#d62728"}
+		]
+		},
+		{"name": "Educação e Tecnologia",
+		"children":[
+			{"name": "Educação e Tecnologia como interesse", "size":17, "color":"#393b79"},
+			{"name": "Educação e Tecnologia como Problema", "size":15, "color":"#d62728"}
+		]
+		},
+		{"name": "Ilustração",
+		"children":[
+			{"name": "Ilustração como interesse", "size":22, "color":"#393b79"},
+			{"name": "Ilustração como Problema", "size":22, "color":"#d62728"}
+		]
+		},
+		{"name": "Outros",
+		"children":[
+			{"name": "Outros como interesse", "size":16, "color":"#393b79"},
+			{"name": "Outros como Problema", "size":5, "color":"#d62728"}
+		]
+		}
+	]
+
+}
