@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Tree Map Evasão 2015.1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="d3.min.js"></script>
+  <script type="text/javascript" src = "script.js"></script>
+  <meta name="author" content="Yuri Frota">
+</head>
+<body>
+  <form>
+    <label><input type="radio" name="mode" value="size" id="size"> Size</label>
+    <label><input type="radio" name="mode" value="count" id="count" checked> Count</label>
+  </form>
+  <form id="graph">
+    <label><input type="radio" name="mode" value="sunburst" onclick="sunburst()"> Sunburst</label>
+    <label><input type="radio" name="mode" value="treemap" onclick="treemap()"> TreeMap </label>
+    <label><input type="radio" name="mode" value="tifoldTree" onclick="tifoldTree()"> Tifold Tree </label>
+  </form>
+  <div id="label">
+    <div id="colorLabel">
+      <div class="Circles">
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="label">
+       <circle cx="28" cy="19" r="10" fill="rgb(198, 219, 239)" />
+       <text transform="matrix(1 0 0 1 46 23.75)" font-family="'Verdana'" font-size="12">SMD Primeira opção de curso</text>
+      </svg>
+      </div>
+      <div class="Circles">
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="label">
+       <circle cx="28" cy="19" r="10" fill="rgb(107, 174, 214)" />
+       <text transform="matrix(1 0 0 1 46 23.75)" font-family="'Verdana'" font-size="12">Inseguro com mercado de trabalho</text>
+      </svg>
+      </div>
+      <div class="Circles">
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="label">
+       <circle cx="28" cy="19" r="10" fill="rgb(199, 233, 192)" />
+       <text transform="matrix(1 0 0 1 46 23.75)" font-family="'Verdana'" font-size="12">Grade Curricular supre suas necessidades?</text>
+      </svg>
+      </div>
+      <div class="Circles">
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="label">
+       <circle cx="28" cy="19" r="10" fill="rgb(161, 217, 155)" />
+       <text transform="matrix(1 0 0 1 46 23.75)" font-family="'Verdana'" font-size="12">Trabalha ou Trabalhou na área</text>
+      </svg>
+      </div>
+      <div class="Circles">
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="label">
+       <circle cx="28" cy="19" r="10" fill="rgb(116, 196, 118)" />
+       <text transform="matrix(1 0 0 1 46 23.75)" font-family="'Verdana'" font-size="12">Oferece estrutura necessária</text>
+      </svg>
+      </div>
+      <div class="Circles">
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="label">
+       <circle cx="28" cy="19" r="10" fill="rgb(49, 163, 84)" />
+       <text transform="matrix(1 0 0 1 46 23.75)" font-family="'Verdana'" font-size="12">Semestre de ingresso</text>
+      </svg>
+      </div>
+      <div class="Circles">
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="label">
+       <circle cx="28" cy="19" r="10" fill="rgb(158, 202, 225)" />
+       <text transform="matrix(1 0 0 1 46 23.75)" font-family="'Verdana'" font-size="12">Grade Atual</text>
+      </svg>
+      </div>
+      <div class="Circles">
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="label">
+       <circle cx="28" cy="19" r="10" fill="rgb(253, 174, 107)" />
+       <text transform="matrix(1 0 0 1 46 23.75)" font-family="'Verdana'" font-size="12">Expectativas Atendidas</text>
+      </svg>
+      </div>
+      <div class="Circles">
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="label">
+       <circle cx="28" cy="19" r="10" fill="rgb(253, 141, 60)" />
+       <text transform="matrix(1 0 0 1 46 23.75)" font-family="'Verdana'" font-size="12">SMD deixa a desejar em?</text>
+      </svg>
+      </div>
+      <div class="Circles">
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="label">
+       <circle cx="28" cy="19" r="10" fill="rgb(117, 107, 177)" />
+       <text transform="matrix(1 0 0 1 46 23.75)" font-family="'Verdana'" font-size="12">Expectativas Atendidas</text>
+      </svg>
+      </div>
+      <div class="Circles">
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="label">
+       <circle cx="28" cy="19" r="10" fill="rgb(158, 154, 200)" />
+       <text transform="matrix(1 0 0 1 46 23.75)" font-family="'Verdana'" font-size="12">Motivos para evasão</text>
+      </svg>
+      </div>
+      <div class="Circles">
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="label">
+       <circle cx="28" cy="19" r="10" fill="rgb(230, 85, 13)" />
+       <text transform="matrix(1 0 0 1 46 23.75)" font-family="'Verdana'" font-size="12">Conhece o Projeto Pedagogico?</text>
+      </svg>
+      </div>
+      <div class="Circles">
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="label">
+       <circle cx="28" cy="19" r="10" fill="rgb(253, 208, 162)" />
+       <text transform="matrix(1 0 0 1 46 23.75)" font-family="'Verdana'" font-size="12">Metodologia de Ensino</text>
+      </svg>
+      </div>
+    </div>
+  </div>
+</body>

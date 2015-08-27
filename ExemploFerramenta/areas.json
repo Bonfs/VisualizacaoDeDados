@@ -1,0 +1,113 @@
+{"name":"Motivos de Evasão",
+	"children":[
+		{"name":"Sexo",
+			"children":[
+				{"name":"Masculino", "size":63},
+				{"name":"Feminino", "size":33}
+			]
+		},
+		{"name":"Semestre",
+			"children":[
+				{"name":"2010.1", "size":6},
+				{"name":"2011.1", "size":13},
+				{"name":"2012.1", "size":12},
+				{"name":"2013.1", "size":18},
+				{"name":"2013.2", "size":11},
+				{"name":"2014.1", "size":11},
+				{"name":"2014.2", "size":6},
+				{"name":"2015.1", "size":20}
+			]
+
+		},
+		{"name":"SMD Primeira opção de curso",
+			"children":[
+				{"name":"Sim", "size":63},
+				{"name":"Não", "size":20}
+			]
+		},
+		{"name":"Conhece o Projeto Pedagogico",
+			"children":[
+				{"name":"Sim", "size":81},
+				{"name":"Não", "size":16}
+			]
+		},
+		{"name":"Expectativas Atendidas",
+			"children":[
+				{"name":"Sim", "size":71},
+				{"name":"Não", "size":26}
+			]
+		},
+		{"name":"Grade Atual",
+			"children":[
+				{"name":"Muito Satisfatoria", "size":11},
+				{"name":"Satisfatoria", "size":70},
+				{"name":"Pouco Satisfatoria", "size":14},
+				{"name":"Insatisfatoria", "size":2},
+				{"name":"Não Sei", "size":0}
+			]
+		},
+		{"name":"Metodologia de Ensino",
+			"children":[
+				{"name":"Muito Satisfatoria", "size":17},
+				{"name":"Satisfatoria", "size":63},
+				{"name":"Pouco Satisfatoria", "size":13},
+				{"name":"Insatisfatoria", "size":3},
+				{"name":"Não Sei", "size":1}
+			]
+		},
+		{"name":"Estrutura do curso",
+			"children":[
+				{"name":"Oferece estrutura necessária", "size":14},
+				{"name":"Básica, necessita de melhorias", "size":67},
+				{"name":"Longe de oferecer estrutura necessaria", "size":16},
+				{"name":"Não Sei", "size":0}
+			]
+		},
+		{"name":"Trabalha ou Trabalhou na área",
+			"children":[
+				{"name":"Sim", "size":44},
+				{"name":"Não", "size":53}
+			]
+		},
+		{"name":"Grade Curricular supre suas necessidades",
+			"children":[
+				{"name":"Completamente", "size":17},
+				{"name":"Razoavelmente", "size":61},
+				{"name":"Parcialmente", "size":14},
+				{"name":"Não", "size":5}
+			]
+		},
+		{"name":"Inseguro com mercado de trabalho",
+			"children":[
+				{"name":"Sim", "size":31},
+				{"name":"Não", "size":16},
+				{"name":"Parcialmente", "size":50}
+			]
+		},
+		{"name":"SMD deixa a desejar em",
+			"children":[
+				{"name":"Projeto Pedagogico", "size":7},
+				{"name":"Estrutura do curso", "size":24},
+				{"name":"Corpo docente", "size":5},
+				{"name":"Valorização do mercado", "size":31},
+				{"name":"Desorganização em geral", "size":22},
+				{"name":"Outro", "size":8}
+			]
+		},
+		{"name":"Motivos para evasão",
+			"children":[
+				{"name":"Oportunidades", "size":10},
+				{"name":"Reconhecimento profissional", "size":12},
+				{"name":"Qualidade das aulas", "size":15},
+				{"name":"Organização Pedagogica", "size":6},
+				{"name":"Problemas de Horario", "size":3},
+				{"name":"Problemas Pessoais", "size":12},
+				{"name":"Identificação com o curso", "size":15},
+				{"name":"Entrada em novo curso", "size":2},
+				{"name":"Descontentamento com Estrutura", "size":17},
+				{"name":"Outro", "size":5}
+			]
+		}
+	]
+
+}
